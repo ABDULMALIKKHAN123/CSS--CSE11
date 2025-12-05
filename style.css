@@ -1,24 +1,41 @@
 
 
-/* Desktop */
-div {
-    width: 400px;
+body{
+    margin: 0;
+    font font-family: arial.sans-serif;
 }
 
-/* Mobile */
-@media (max-width: 900px) {
-    div {
-        width: 100%;
+nav {
+    display:flex;
+    justify-contant:space-between;
+    align-items: center;
+    background: #333333;
+    padding: 1rem;
+}
+
+.logo{
+    color: #fff;
+    padding: 1em;
+    text-decoration:none ;
+    display: block;
+}
+
+.humburger{
+    font-size: 2rem;
+color: #fff;
+cursor: pointer;
+
+}
+
+//tablet&desktop//
+@media (min-width:768px){
+    .menu{
+        display:flex;
+        flex-direction:row;
+        position:static;
+        background:none;
     }
 }
-
-
-
-
-
-
-
-
 
 
 
