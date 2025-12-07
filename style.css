@@ -1,51 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Burger Menu</title>
+</head>
+<body style="margin:0; padding:0; font-family:Arial; 
+             background:url('https://i.imgur.com/6Iej2c8.jpeg') no-repeat center center/cover;
+             height:100vh; display:flex; justify-content:center; align-items:center;">
 
+    <!-- Menu Card -->
+    <div style="width:420px; background:rgba(0,0,0,0.85); 
+                padding:25px 35px; border-radius:6px; color:white;">
 
-body{
-    margin: 0;
-    font font-family: arial.sans-serif;
-}
+        <!-- Heading -->
+        <h1 style="text-align:center; color:#f2d000; margin:0; font-size:36px;">
+            BURGER
+        </h1>
+        <h2 style="text-align:center; margin-top:5px; color:#e2e2e2;">
+            Menu
+        </h2>
 
-nav {
-    display:flex;
-    justify-contant:space-between;
-    align-items: center;
-    background: #333333;
-    padding: 1rem;
-}
+        <!-- Burger Items -->
+        <div style="margin-top:25px; font-size:18px; line-height:32px;">
+            <div style="display:flex;">
+                <span>CHICKEN BURGER</span>
+                <span style="margin-left:auto;">₹ 110</span>
+            </div>
 
-.logo{
-    color: #fff;
-    padding: 1em;
-    text-decoration:none ;
-    display: block;
-}
+            <div style="display:flex;">
+                <span>DOUBLE CHEESE BURGER</span>
+                <span style="margin-left:auto;">₹ 170</span>
+            </div>
 
-.humburger{
-    font-size: 2rem;
-color: #fff;
-cursor: pointer;
+            <div style="display:flex;">
+                <span>CHICKEN CHEESE BURGER</span>
+                <span style="margin-left:auto;">₹ 140</span>
+            </div>
 
-}
+            <div style="display:flex;">
+                <span>DOUBLE PATTY BURGER</span>
+                <span style="margin-left:auto;">₹ 210</span>
+            </div>
 
-//tablet&desktop//
-@media (min-width:768px){
-    .menu{
-        display:flex;
-        flex-direction:row;
-        position:static;
-        background:none;
-    }
-}
+            <div style="display:flex;">
+                <span>PERI PERI CHICKEN BURGER</span>
+                <span style="margin-left:auto;">₹ 135</span>
+            </div>
+        </div>
 
+        <!-- Combos Title -->
+        <div style="margin-top:25px; background:#f6d400; 
+                    padding:10px; text-align:center; font-weight:bold; 
+                    color:black; border-radius:4px;">
+            COMBOS
+        </div>
 
+        <!-- Combos List -->
+        <div style="margin-top:20px; font-size:18px; line-height:32px;">
 
+            <div style="display:flex;">
+                <span>C BURGER FRIES</span>
+                <span style="margin-left:auto;">₹ 155</span>
+            </div>
 
+            <div style="display:flex;">
+                <span>CHEESE B 184</span>
+                <span style="margin-left:auto;">₹ 209</span>
+            </div>
 
+            <div style="display:flex;">
+                <span>BIG (B) CHEESE</span>
+                <span style="margin-left:auto;">₹ 270</span>
+            </div>
 
+            <div style="display:flex;">
+                <span>BLAST B</span>
+                <span style="margin-left:auto;">₹ 450</span>
+            </div>
+        </div>
 
-
-
-
-
-
-
+    </div>
+</body>
+</html>
