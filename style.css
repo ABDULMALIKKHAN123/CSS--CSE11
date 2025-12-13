@@ -1,84 +1,165 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Burger Menu</title>
-</head>
-<body style="margin:0; padding:0; font-family:Arial; 
-             background:url('https://i.imgur.com/6Iej2c8.jpeg') no-repeat center center/cover;
-             height:100vh; display:flex; justify-content:center; align-items:center;">
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navb {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.extra a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+header h1 {
+  margin: 0;
+}
+header {
+  margin: 0;
+}
+.hamburger {
+  display: none;
+}
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: static;
+  }
+  .hamburger {
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
 
-    <!-- Menu Card -->
-    <div style="width:420px; background:rgba(0,0,0,0.85); 
-                padding:25px 35px; border-radius:6px; color:white;">
 
-        <!-- Heading -->
-        <h1 style="text-align:center; color:#f2d000; margin:0; font-size:36px;">
-            BURGER
-        </h1>
-        <h2 style="text-align:center; margin-top:5px; color:#e2e2e2;">
-            Menu
-        </h2>
+body{
+    margin: 0;
+     font-family: Arial,  sans-serif ;
+}
 
-        <!-- Burger Items -->
-        <div style="margin-top:25px; font-size:18px; line-height:32px;">
-            <div style="display:flex;">
-                <span>CHICKEN BURGER</span>
-                <span style="margin-left:auto;">₹ 110</span>
-            </div>
+nav {
+    display: inline;flex: ;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 1rem;
+}
+.logo{
+    color: #fff;
+    font-size: large;
+}
 
-            <div style="display:flex;">
-                <span>DOUBLE CHEESE BURGER</span>
-                <span style="margin-left:auto;">₹ 170</span>
-            </div>
+.menu{
+    display: none;
+    flex-direction: column;
+    background: #444;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
 
-            <div style="display:flex;">
-                <span>CHICKEN CHEESE BURGER</span>
-                <span style="margin-left:auto;">₹ 140</span>
-            </div>
+}
 
-            <div style="display:flex;">
-                <span>DOUBLE PATTY BURGER</span>
-                <span style="margin-left:auto;">₹ 210</span>
-            </div>
+.menu a{
+    color: #fff;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
 
-            <div style="display:flex;">
-                <span>PERI PERI CHICKEN BURGER</span>
-                <span style="margin-left:auto;">₹ 135</span>
-            </div>
-        </div>
+}
 
-        <!-- Combos Title -->
-        <div style="margin-top:25px; background:#f6d400; 
-                    padding:10px; text-align:center; font-weight:bold; 
-                    color:black; border-radius:4px;">
-            COMBOS
-        </div>
+.hamburger{
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
 
-        <!-- Combos List -->
-        <div style="margin-top:20px; font-size:18px; line-height:32px;">
 
-            <div style="display:flex;">
-                <span>C BURGER FRIES</span>
-                <span style="margin-left:auto;">₹ 155</span>
-            </div>
+@media(min-width:768px)
+{
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: none;
+        width: ;
+    }
+} */
+ 
 
-            <div style="display:flex;">
-                <span>CHEESE B 184</span>
-                <span style="margin-left:auto;">₹ 209</span>
-            </div>
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+}
 
-            <div style="display:flex;">
-                <span>BIG (B) CHEESE</span>
-                <span style="margin-left:auto;">₹ 270</span>
-            </div>
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 1rem;
+}
 
-            <div style="display:flex;">
-                <span>BLAST B</span>
-                <span style="margin-left:auto;">₹ 450</span>
-            </div>
-        </div>
+.logo{
+    color: white;
+    font-size: 1.5rem;
+}
 
-    </div>
-</body>
-</html>
+.menu{
+    display: none;
+    flex-direction: column;
+    background:#4444;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 280px;
+}
+
+.menu a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.hamburger{
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* tablet and desktop */ @media(min-width:768px){
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background:none;
+        width: auto;
+    }
+    .hamburger{
+        display: none;
+    }
+}
